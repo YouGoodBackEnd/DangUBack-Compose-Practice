@@ -57,11 +57,6 @@ fun LoginArea() {
                 fontFamily = NotoSans,
                 fontWeight = FontWeight.Bold)
 
-            /*Button(onClick = {}) {
-                Row() {
-                    Icon(Icons)
-                }
-            }*/
             Card(modifier = Modifier
                 .fillMaxWidth()
                 .padding(top = 20.dp), backgroundColor = Color.White,
@@ -163,6 +158,7 @@ fun LoginArea() {
                             fontSize = 12.sp,
                             modifier = Modifier.padding(top = 24.dp, bottom = 16.dp))
                     }
+                    Spacer(modifier = Modifier.height(4.dp))
                 }
             }
         }
