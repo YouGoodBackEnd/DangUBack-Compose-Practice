@@ -3,7 +3,7 @@ package com.yongjincompany.attendence.ui.theme
 import androidx.compose.ui.graphics.Color
 
 
-val PrimaryColor = Color(0xFF000000)
+val PrimaryColor = Color(0xFF00BCD4)
 val LightTextColor = Color(0xFF758684)
 
 val Purple200 = Color(0xFFBB86FC)
